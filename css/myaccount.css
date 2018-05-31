@@ -1,0 +1,82 @@
+.myaccount .account_header{
+    width: 100%;
+    height: 250px;
+    background: #ED5858;
+    padding-top:30px;
+}
+.account_header img{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin:0px auto;
+    border-radius: 50%;
+}
+.account_header button{
+    width: 40%;
+    height: 40px;
+    margin:30px 5px 0 5px;
+    background: #ED5858;
+    color: #fff;
+    border:0;
+    border:1px solid #fff;
+    font-size: .4rem;
+}
+.account_header .login{
+    margin-left:10%;
+}
+
+.account_nav {
+    background: #fff;
+}
+.account_nav ul{
+    display: flex;
+    padding:20px 20px;
+}
+.account_nav ul li{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    text-align: center;
+}
+.account_nav ul li>span:nth-of-type(1){
+    width: 40px;
+    height: 40px;
+    font-size: .6rem;
+    background: lightgreen;
+    border-radius: 50%;
+    line-height: 40px;
+    color: #fff;
+    margin:0 auto;
+}
+.account_nav ul li:nth-of-type(2)>span:first-child{
+    background: lightskyblue;
+}
+.account_nav ul li:nth-of-type(3)>span:first-child{
+    background: lightcoral;
+}
+.account_nav ul li:nth-of-type(4)>span:first-child{
+    background: lightgoldenrodyellow;
+}
+.account_nav ul li>span:nth-of-type(2){
+    margin-top:10px;
+    color: #858585;
+}
+.account_list {
+    background:#fff;
+   
+}
+.account_list ol{
+    padding:0 10px 0 20px;
+    line-height: 1rem;
+    display: flex;
+    justify-content: space-between;
+    height: 1rem;
+    border-top:1px solid #ccc;
+}
+.account_list ol li:nth-of-type(2)>span:first-child{
+    color: #999;
+}
+.account_list ol li:nth-of-type(1)>i{
+    font-size: .4rem;
+}
+

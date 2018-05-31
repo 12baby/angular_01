@@ -1,0 +1,35 @@
+<div class="fund_box">
+       <div class="datas" ng-repeat="x in content | filter:val">
+            <div class="top_box">
+                    <p>
+                        <b>{{x.title}}</b>
+                        <span>{{x.type}}</span>
+                    </p>
+                </div>
+                <div class="bot_box">
+                        <ol class="income">
+                            <li class="rise">
+                                <span>{{x.rise}}</span>
+                                <i>{{x.bignum}}</i>
+                                <em>{{x.smallnum+'%'}}</em>
+                                <b>{{x.amount}}</b>
+                            </li>
+                        </ol>
+                        <ol class="time">
+                            <li>
+                                <b>{{x.unit}}</b>
+                            </li>
+                            <li>
+                                <strong>{{x.value}}</strong>
+                            </li>
+                        </ol>
+                        <ol class="buy">  
+                                <li>
+                                <circle-progress total="{{x.total}}" saled="{{x.saled}}"></circle-progress>
+                                  </li>
+                            <li>已有<span>{{x.Number}}</span>购买</li>
+                        </ol>
+                    </div>
+        
+       </div>
+</div>

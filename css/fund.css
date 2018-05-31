@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    font-weight: normal;
+    font-style: normal;
+}
+.fund_box{
+    width: 100%;
+}
+.fund_box .datas{
+    width: 100%;
+    background: #fff;
+    border-bottom:1px solid #ccc;
+}
+.fund_box .datas.top_box b{
+    color: #2C2C2C;
+}
+.fund_box .datas .top_box p{
+    text-align: center;
+    line-height: 1rem;
+    font-size: .38rem;
+}
+.fund_box .datas.top_box span{
+    color: #999;
+}
+.fund_box .bot_box{
+    display: flex;
+    /* align-items: center; */
+}
+.fund_box .bot_box ol{
+  text-align: center;
+}
+.fund_box  .bot_box .income{
+    position: relative;
+    width: 50%;
+    padding-left:10px;
+}
+.fund_box .bot_box .time,.fund_box .bot_box .buy{
+    width: 30%;
+}
+.fund_box .bot_box .income li{
+    color: orange;
+}
+.fund_box .bot_box .income .rise>b{
+    position: absolute;
+    font-size: .3rem;
+    color: #999;
+    right: 10px;
+    top:-20px;
+}
+.fund_box .bot_box .income .rise{
+    line-height: 1.7rem;
+}
+.fund_box .bot_box .income .rise i{
+    font-size: 1rem;
+   
+}
+.fund_box .bot_box .income .rise span,.fund_box .bot_box .income .rise em{
+    font-size: .5rem;
+    
+}
+.fund_box .bot_box .time b{
+    color: #999;
+    line-height: .8rem;
+}
+.fund_box .bot_box .time strong{
+    font-size: .5rem;
+}
+.fund_box .buy li{
+    font-size: .26rem;
+    margin:0 3px;
+    line-height: .5rem;
+    color: #999;
+}
+.fund_box .buy span{
+    color: orange;
+}
+
+
+

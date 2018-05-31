@@ -1,0 +1,24 @@
+<div class="managemoney">
+    <div class="mark" ng-if="flag">
+    <div class="filter_box">
+        <p ng-repeat="x in list" ng-click="click(x)">
+            <input type="checkbox">
+            <span>{{x}}</span>
+        </p>
+    </div>
+</div>
+    <div class="money_header">
+        <span></span>
+        <span>理财产品</span>
+        <span class="iconfont" ng-click="click_filter()">&#xe655;</span>
+
+    </div>
+
+    <ul class="money_list">
+        <li ui-sref="managemoney.product" ui-sref-active="on">债权产品</li>
+        <li ui-sref="managemoney.fund" ui-sref-active="on">优选基金</li>
+    </ul>
+    <ui-view></ui-view>
+
+
+</div>

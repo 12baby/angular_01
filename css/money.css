@@ -1,0 +1,71 @@
+.managemoney{
+    width: 100%;
+    position: relative;
+}
+.money_header{
+    width:100%;
+    height:.9rem;
+    background: #ED5858;
+    line-height: .9rem;
+    display: flex;
+    color:#fff;
+    font-size:.4rem;
+   
+}
+.mark{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index:999;
+    top:.9rem;
+  
+}
+.filter_box{
+    width: 100%;
+    height: 300px;
+    background: #fff;
+    position: absolute;
+    z-index: 999;
+    padding:0 10px;
+}
+
+.filter_box p{
+    line-height: 1rem;
+    border-bottom:1px solid #ccc;
+    
+}
+.filter_box input[type='checkbox']:checked+label::before {
+    content:'\2713'; /*对号的 Unicode字符*/
+    background: green;/*对号的颜色*/
+    color: #fff;
+  }
+.money_header span{
+    flex:1;
+    text-align: center;
+}
+.money_header span:last-child{
+    text-align: right;
+    padding-right: -10px;
+}
+.money_list{
+    display: flex;
+    width:100%;
+    height: .9rem;
+    text-align: center;
+   padding:10px 0;
+    background: #fff;
+    border-bottom:1px solid #ccc;
+    color: #707070;
+}
+.money_list li{
+    flex:1;   
+}
+.money_list li:first-child{
+    border-right: 1px solid #ccc;
+}
+.on{
+    color:#ED5858;
+    height: .7rem;
+    border-bottom:1px solid #ED5858; 
+}

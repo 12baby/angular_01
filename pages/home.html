@@ -1,0 +1,57 @@
+<div class="home">
+    <header class="home_header">
+        <p></p>
+        <h3><i class="iconfont">&#xe69e;</i>开财宝</h3>
+        <b class="iconfont">&#xe88f;</b>
+    </header>
+    <carousel-figure list="list" pagination=".swiper-pagination" autoplay="2000"></carousel-figure>
+    <div class="money_box">
+        <ul>
+            <li>累计成交金额</li>
+            <li>29,089.80
+                <span>万元</span>
+            </li>
+        </ul>
+        <ul>
+            <li>为投资人赚取利益</li>
+            <li>584.89
+                <span>万元</span>
+            </li>
+        </ul>
+    </div>
+    <section class="home_section">
+        <div class="yache" ng-repeat="i in info">
+            <div class="top_box">
+                <img ng-src="{{i.bgsrc}}" alt="">
+                <p>{{i.type}}</p>
+                <span>{{i.title}}</span>
+            </div>
+            <div class="bot_box">
+                <ol class="income">
+                        <li>
+                            <b>{{i.income}}</b>
+                        </li>
+                        <li>
+                            <span>{{i.bignum}}</span>
+                            <i>{{i.smallnum +'%'}}</i>
+                        </li>
+                </ol>
+                <ol class="time">
+                        <li>
+                            <b>{{i.deadline}}</b>
+                        </li>
+                        <li>
+                            <strong>{{i.time}}</strong>
+                            <span>{{i.unit}}</span>
+                        </li>
+                </ol>
+                <ol class="buy">
+                        <li>
+                            <circle-progress total="{{i.total}}" saled="{{i.saled}}"></circle-progress>
+                        </li>
+                        <li>{{i.Number}}</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+</div>

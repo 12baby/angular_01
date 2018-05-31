@@ -1,0 +1,44 @@
+[
+    {
+        "type":"押车宝",
+        "title": "汽车供应链第75期",
+        "bgsrc":"images/blue_bg.jpg",
+        "total":1000,
+        "saled":500,
+        "bignum": 12,
+        "smallnum": ".0",
+        "deadline":"期限",
+        "time": "3",
+        "unit": "月",
+        "Number": "500人抢购",
+        "income":"年化收益"
+    },
+    {
+        "type":"流水宝",
+        "title": "汽车供应链第75期",
+        "bgsrc":"images/orange_bg.jpg",
+        "total":1000,
+        "saled":600,
+        "bignum": 14,
+        "smallnum": ".0",
+        "deadline":"期限",
+        "time": "13",
+        "unit": "天",
+        "Number": "700人抢购",
+        "income":"年化收益"
+    },
+    {
+        "type":"押车宝",
+        "title": "汽车供应链第75期",
+        "bgsrc":"images/blue_bg.jpg",
+        "total":1000,
+        "saled":500,
+        "bignum": 22,
+        "smallnum": ".0",
+        "deadline":"期限",
+        "time": "3",
+        "unit": "天",
+        "Number": "100人抢购",
+        "income":"年化收益"
+    }
+]

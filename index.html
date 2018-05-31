@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/myaccount.css">
+    <link rel="stylesheet" href="css/more.css">
+    <link rel="stylesheet" href="css/money.css">
+    <link rel="stylesheet" href="css/fund.css">
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="font_licai/iconfont.css">
+    <link rel="stylesheet" href="lib/swiper-3.3.1.min.css">
+    <script src="lib/angular.js"></script>
+    <script src="lib/router.js"></script>
+    <script src="lib/angular-animate.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/router.config.js"></script>
+    <script src="js/controller.js"></script>
+    <script src="lib/swiper-3.3.1.min.js"></script>
+    <script src="lib/RequestData.js"></script>
+    <script src="js/canvas.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <ui-view class="view">
+
+            </ui-view>
+        </div>
+        <ul class="nav">
+            <li ui-sref="home" ui-sref-active="active">
+                <i class="iconfont">&#xe69e;</i>
+                <span>首页</span>
+            </li>
+            <li ui-sref="managemoney" ui-sref-active="active">
+                <i class="iconfont">&#xe600;</i>
+                <span>理财产品</span>
+            </li>
+            <li ui-sref="myaccount" ui-sref-active="active">
+                <i class="iconfont">&#xe659;</i>
+                <span>我的账户</span>
+            </li>
+            <li ui-sref="more" ui-sref-active="active">
+                <i class="iconfont">&#xe63a;</i>
+                <span>更多</span>
+            </li>
+        </ul>
+
+    </div>
+</body>
+
+</html>
+
+<script>
+    document.documentElement.style.fontSize = document.documentElement.clientWidth / 375 * 50 + 'px';
+</script>

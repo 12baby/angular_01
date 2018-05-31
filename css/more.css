@@ -1,0 +1,38 @@
+
+.more{
+    width: 100%;
+    height: 100%;
+    background: #eee;
+}
+.more_list{
+    
+}
+.more_list p{
+    width: 100%;
+    height: .9rem;
+    line-height: .9rem;
+    margin-top:10px;
+    background: #fff;
+    padding:0 10px;
+    border-bottom:1px solid #ccc;
+}
+.more_list p:nth-child(1)>i{
+    color: lightskyblue;
+}  
+.more_list p:nth-child(2)>i,.more_list p:nth-child(3)>i,.more_list p:nth-child(4)>i{
+    color: rgb(243, 180, 7);
+} 
+.more_list p:nth-child(4),.more_list p:nth-child(6){
+    margin-top:0;
+}
+.more_list p:nth-child(5)>i,.more_list p:nth-child(6)>i{
+    color: green;
+}  
+.more_header{
+    width:100%;
+    height: .9rem;
+    line-height: .9rem;
+    color: #fff;
+    text-align: center;
+    background: #ED5858;
+}
